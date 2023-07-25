@@ -9,8 +9,8 @@ const Contact = () => {
       <Navbar />
       <HeroRest
         heading="CONTACT"
-        text="Here is the way to Connect with me"
-        text2="**Please Review this Page**"
+        text="Okay Here is the way to Connect with me"
+        text2="Please Review this Page"
       />
       <Footer />
     </div>
