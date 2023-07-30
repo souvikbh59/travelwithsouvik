@@ -10,6 +10,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -87,22 +88,40 @@ const Footer = () => {
             which I have visited. Cheers !!!
           </p>
           <div className="social">
-            <FaFacebook
-              size={25}
-              style={{ color: "white", marginRight: "1.2rem" }}
-            />
-            <FaInstagram
-              size={25}
-              style={{ color: "white", marginRight: "1.2rem" }}
-            />
-            <FaLinkedinIn
-              size={25}
-              style={{ color: "white", marginRight: "1.2rem" }}
-            />
-            <FaGithub
-              size={25}
-              style={{ color: "white", marginRight: "1rem", marginTop: "1rem" }}
-            />
+            <Link
+              to="https://www.facebook.com/souvik.bhattacharya.7739/"
+              target="_blank"
+            >
+              <FaFacebook
+                size={25}
+                style={{ color: "white", marginRight: "1.2rem" }}
+              />
+            </Link>
+            <Link to="https://www.instagram.com/souvik_vix/" target="_blank">
+              <FaInstagram
+                size={25}
+                style={{ color: "white", marginRight: "1.2rem" }}
+              />
+            </Link>
+            <Link
+              to="https://www.linkedin.com/in/souvik-bhattacharya-221782147/"
+              target="_blank"
+            >
+              <FaLinkedinIn
+                size={25}
+                style={{ color: "white", marginRight: "1.2rem" }}
+              />
+            </Link>
+            <Link>
+              <FaGithub
+                size={25}
+                style={{
+                  color: "white",
+                  marginRight: "1rem",
+                  marginTop: "1rem",
+                }}
+              />
+            </Link>
           </div>
         </div>
       </div>
