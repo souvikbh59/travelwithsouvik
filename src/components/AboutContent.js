@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import "./AboutContentStyles.css";
 import React from "react";
-import Img1 from "../assets/kanchenjangha2.jpeg";
-import Img2 from "../assets/Hero.jpeg";
+import Img1 from "../assets/kedarnath.jpeg";
+import Img2 from "../assets/kanchenjangha2.jpeg";
 
 const AboutContent = () => {
   return (
