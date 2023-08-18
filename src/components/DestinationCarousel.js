@@ -1,5 +1,7 @@
 import React from "react";
 
+import { pdfGenerate } from "../components/PDFFile.js";
+
 export default function DestinationCarousel(props) {
   return (
     <div className="card">
@@ -8,7 +10,9 @@ export default function DestinationCarousel(props) {
       <p className="price">{props.price}</p>
       <p className="description">{props.description}</p>
       <p>
-        <button className="btn">View More</button>
+        <button className="btn" onClick={pdfGenerate}>
+          View
+        </button>
       </p>
     </div>
   );
