@@ -10,7 +10,7 @@ export default function DestinationCarousel(props) {
       <p className="price">{props.price}</p>
       <p className="description">{props.description}</p>
       <p>
-        <button className="btn" onClick={pdfGenerate}>
+        <button className="btn" onClick={() => pdfGenerate(props)}>
           View
         </button>
       </p>

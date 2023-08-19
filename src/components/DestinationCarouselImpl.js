@@ -11,6 +11,9 @@ export default function DestinationCarouselImpl() {
       name={item.name}
       url={item.imageurl}
       description={item.description}
+      moreDescription={item.moreDescription}
+      plan={item.plan}
+      contact={item.contact}
     />
   ));
 
