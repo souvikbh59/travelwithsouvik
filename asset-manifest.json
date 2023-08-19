@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/travelwithsouvik/static/css/main.4a3c3a40.css",
-    "main.js": "/travelwithsouvik/static/js/main.36cf7fca.js",
+    "main.js": "/travelwithsouvik/static/js/main.4753436a.js",
     "static/js/498.e543f700.chunk.js": "/travelwithsouvik/static/js/498.e543f700.chunk.js",
     "static/js/703.f6cad020.chunk.js": "/travelwithsouvik/static/js/703.f6cad020.chunk.js",
     "static/js/210.4eb12ee2.chunk.js": "/travelwithsouvik/static/js/210.4eb12ee2.chunk.js",
@@ -13,13 +13,13 @@
     "static/media/revicons.woff": "/travelwithsouvik/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/travelwithsouvik/index.html",
     "main.4a3c3a40.css.map": "/travelwithsouvik/static/css/main.4a3c3a40.css.map",
-    "main.36cf7fca.js.map": "/travelwithsouvik/static/js/main.36cf7fca.js.map",
+    "main.4753436a.js.map": "/travelwithsouvik/static/js/main.4753436a.js.map",
     "498.e543f700.chunk.js.map": "/travelwithsouvik/static/js/498.e543f700.chunk.js.map",
     "703.f6cad020.chunk.js.map": "/travelwithsouvik/static/js/703.f6cad020.chunk.js.map",
     "210.4eb12ee2.chunk.js.map": "/travelwithsouvik/static/js/210.4eb12ee2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a3c3a40.css",
-    "static/js/main.36cf7fca.js"
+    "static/js/main.4753436a.js"
   ]
 }
